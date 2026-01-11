@@ -1,0 +1,52 @@
+body
+{
+    display: grid;
+    font-size: 20px;
+    font-style: 'Times New Roman';
+    font-weight: 547;
+    line-height: 1.5;
+    h2 
+        {color: #006eb6;
+    }
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: solid;
+    border-width: 2px;
+}
+.title
+{
+    text-transform: uppercase;
+    text-align: center;
+}
+p:first-of-type
+{
+    margin-top: 10%;
+}
+p, ol
+{
+    line-height: 35px;
+}
+li
+{
+    margin-top: 20px;
+}
+img
+{
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.content h2
+{
+    border-bottom-style: solid ;
+    border-bottom: 1px solid #006eb6;
+    font-size: 15px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+.content h1
+{
+    font-weight: 300;
+}
