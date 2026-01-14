@@ -1,0 +1,85 @@
+body
+{
+    display: grid;
+    grid-row: center;
+}
+
+#content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#content p:empty {
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  padding: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  max-width: 800px;
+  margin: 0 auto;   /* centers the content */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #34495e;
+  border-bottom: 2px solid #ccc;
+}
+
+p {
+  font-size: 1.1em;
+  color: #555;
+}
+
+.list {
+  list-style-type: square;
+  margin-left: 20px;
+  color: #333;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 200px;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #eee;
+  margin: 20px 0;
+}
+
+div > p {
+  font-style: italic;   /* direct child paragraph of a div */
+}
+
+h2 + ul {
+  background-color: #f9f9f9;  /* ul immediately after h2 */
+}
+
+h2 ~ ul {
+  padding: 10px;        /* all ul preceded by h2 */
+}
+
+
+
+
+
+
+
+
+
+/* <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="An in-depth guide to HTML meta tags.">
+<meta name="author" content="Jane Doe"> */
