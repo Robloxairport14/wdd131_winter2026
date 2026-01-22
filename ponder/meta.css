@@ -1,85 +1,50 @@
-body
-{
-    display: grid;
-    grid-row: center;
+body {
+    background-color: #ddd;
+    font-size: 20px;
 }
-
-#content img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-#content p:empty {
-  margin: 0;
-  padding: 0;
-}
-
 #content {
-  padding: 1rem;
-  max-width: 600px;
-  margin: 0 auto;
-  max-width: 800px;
-  margin: 0 auto;   /* centers the content */
-  padding: 20px;
-  font-family: Arial, sans-serif;
-
+    max-width: 60%;
+    margin: 40px auto;
+    border: 1px solid darkgrey;
+    padding: 50px;
 }
-
-h1 {
-  text-align: center;
-  color: #2c3e50;
-}
-
-h2 {
-  margin-top: 20px;
-  color: #34495e;
-  border-bottom: 2px solid #ccc;
-}
-
 p {
-  font-size: 1.1em;
-  color: #555;
+    color: #035f9c;
+    font-size: 1.3em;
 }
-
-.list {
-  list-style-type: square;
-  margin-left: 20px;
-  color: #333;
-}
-
-img {
-  display: block;
-  margin: 20px auto;
-  max-width: 200px;
-}
-
 hr {
-  border: none;
-  border-top: 2px solid #eee;
-  margin: 20px 0;
+    height: 3px;
+    background-color: #035f9c;
+    margin: 30px auto;
+    width: 80%;
+}
+h1, h2, p {
+    text-align: center;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+#topics {
+    width: 55%;
+    margin: 0 auto;
+    line-height: 1.5em;
+}
+.list {
+    list-style-type: none;
+}
+.section {
+  display: none;
 }
 
-div > p {
-  font-style: italic;   /* direct child paragraph of a div */
+#htmlSection,
+#cssSection,
+#jsSection,
+#allSection {
+  display: none;
 }
 
-h2 + ul {
-  background-color: #f9f9f9;  /* ul immediately after h2 */
+.photo{
+    width: 100%;
 }
-
-h2 ~ ul {
-  padding: 10px;        /* all ul preceded by h2 */
-}
-
-
-
-
-
-
-
-
-
-/* <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="An in-depth guide to HTML meta tags.">
-<meta name="author" content="Jane Doe"> */
