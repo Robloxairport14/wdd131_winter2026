@@ -1,4 +1,4 @@
-body
+/* body
 {
     display: grid;
     font-size: 20px;
@@ -49,4 +49,49 @@ img
 .content h1
 {
     font-weight: 300;
+} */
+
+body
+{
+    font-size: 20px;
+    font-style: 'Times New Roman';
+    line-height: 1.5;
+    h2 
+        {color: #006eb6;
+    }
+    text-align: left;
+    margin-left: 34%;
+    margin-right: 34%;
+}
+.title
+{
+    text-transform: uppercase;
+    text-align: center;
+}
+p:first-of-type
+{
+    margin-top: 10%;
+}
+p, ol
+{
+    line-height: 35px;
+}
+li
+{
+    margin-top: 20px;
+}
+img
+{
+    width: 550px;
+    height: 275px;
+}
+
+.D, .dark
+{
+    background-color: black;
+    color : white;
+    h2
+    {
+        color: #75b0d7;
+    }
 }
